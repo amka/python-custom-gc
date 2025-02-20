@@ -1,0 +1,10 @@
+[project]
+name = "django-gc"
+version = "0.1.0"
+description = "Custom GC settings"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "colorama>=0.4.6",
+    "psutils>=3.3.9",
+]
