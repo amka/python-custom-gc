@@ -67,7 +67,7 @@ if __name__ == '__main__':
     t0 = datetime.datetime.now()
 
     # Let's go!
-    mem_delta = main(change, True)
+    mem_delta = main(change)
 
     dt = datetime.datetime.now() - t0
     msg = (Fore.LIGHTRED_EX + 'with') if change else (Fore.CYAN + 'without')
